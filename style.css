@@ -333,13 +333,13 @@ nav a:hover {
 
 @media screen and (max-width: 600px){
     .stopwatch {
-        width: 66%;
+        width: 69%;
         height: 28%;
         margin-bottom: 0;
         margin-left: 20%;
     }
     .stopwatch h2{
-        font-size: 33px;
+        font-size: 43px;
         margin-bottom: 10px;
     }
     .button img{
