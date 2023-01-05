@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); 
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 
 body {
     background-color: white;
@@ -57,20 +60,21 @@ nav a:hover {
 }
 
 .stopwatch {
+    border-radius: 19px;
     width: 30%;
-    height: 35%;
-    background-color: rgba(3, 3, 3, 0.5);
+    height: 37%;
+    background: linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.1));
     background-size: cover;
     background-position: center;
     padding: 40px 0;
     margin: 50px auto;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.4);
     text-align: center;
 }
 
 .stopwatch h1 {
+    font-family: 'Poppins', sans-serif;
     margin-top: 2px;
-    font-size: 19px;
+    font-size: 22px;
     color: rgb(243, 83, 83);
 }
 
@@ -105,13 +109,15 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     background-position: center;
     padding: 25px 0;
-    margin: 50px 20px;
+    margin: 24px 20px;
     box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
     text-align: center;
     justify-content: center;
+    border-radius: 100px
 }
 
 .rest h1 {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     position: relative;
     color: white;
@@ -313,4 +319,49 @@ nav a:hover {
    .btn:active {
     filter: brightness(.7);
     transform: scale(.98);
+   }
+
+@media screen and (max-width: 600px){
+    .stopwatch {
+        width: 40%;
+        margin-bottom: 0;
+        margin-left: 30%;
+    }
+    .stopwatch h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .button img{
+        width: 25px;
+        margin: 0 10px;
+    }
+
+    .rest {
+        width: 24%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+    
+    }
+    .rest h1{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .teks {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .rest img {
+        width: 30%;
+        margin-bottom: 0;
+    }
+    .bottom h2 {
+        font-size: 12px;
+        padding-top:50px;
+    }
+    .bottom p {
+        font-size: 7px;
+    }
+
+
    }
