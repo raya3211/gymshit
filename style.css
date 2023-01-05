@@ -16,11 +16,12 @@ body {
 
 .header {
     width: 100%;
-    height: 100vh;
+    height: 115vh;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url(img/bg.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+    padding-bottom: 10px;
 }
 
 
@@ -55,20 +56,21 @@ nav a {
 }
 
 nav a:hover {
-	color: orange;
+	color: rgb(219, 39, 7);
 
 }
 
 .stopwatch {
-    border-radius: 19px;
+    border-radius: 93px 0px 81px 0px;
     width: 30%;
     height: 37%;
-    background: linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.1));
+    background: linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.6));
     background-size: cover;
     background-position: center;
     padding: 40px 0;
     margin: 50px auto;
     text-align: center;
+    box-shadow: 13px 17px 30px 6px rgba(0,0,0,0.17);
 }
 
 .stopwatch h1 {
@@ -113,7 +115,15 @@ nav a:hover {
     box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
     text-align: center;
     justify-content: center;
-    border-radius: 100px
+    border-radius: 100px;
+    padding-bottom: 10px;
+}
+
+.rest:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+
 }
 
 .rest h1 {
@@ -234,7 +244,7 @@ nav a:hover {
   .bottom {
     text-align: center;
     align-items: center;
-    background-color: rgb(65, 63, 60);
+    background: linear-gradient(rgba(10, 10, 10,1),rgba(10, 10, 10,1));
     color: white;
     position: relative;
 
@@ -252,7 +262,7 @@ nav a:hover {
     font-weight: 600;
     margin-top: 20px;
     font-size: 13px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   .bottom img {
     margin-top: 25px;
@@ -341,22 +351,22 @@ nav a:hover {
     }
 
     .rest {
-        width: 24%;
+        width: 34%;
         margin-top: 30px;
         margin-bottom: 50px;
         border-radius: 50px;
     
     }
     .rest h1{
-        font-size: 15px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
     .teks {
-        font-size: 15px;
+        font-size: 25px;
         margin-bottom: 0;
     }
     .rest img {
-        width: 30%;
+        width: 40%;
         margin-bottom: 0;
     }
     .bottom h2 {
