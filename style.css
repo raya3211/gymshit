@@ -333,8 +333,8 @@ nav a:hover {
 
 @media screen and (max-width: 600px){
     .stopwatch {
-        width: 45%;
-        height: 30%;
+        width: 55%;
+        height: 25%;
         margin-bottom: 0;
         margin-left: 30%;
     }
@@ -343,11 +343,11 @@ nav a:hover {
         margin-bottom: 10px;
     }
     .button img{
-        width: 40px;
+        width: 55px;
         margin: 0 10px;
     }
 .button img.cuy{
-        width: 50px;
+        width: 70px;
     }
 
     .rest {
