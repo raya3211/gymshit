@@ -333,10 +333,10 @@ nav a:hover {
 
 @media screen and (max-width: 600px){
     .stopwatch {
-        width: 64%;
+        width: 66%;
         height: 28%;
         margin-bottom: 0;
-        margin-left: 30%;
+        margin-left: 20%;
     }
     .stopwatch h2{
         font-size: 25px;
