@@ -5,8 +5,10 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" conten="width=device-widht, initial scale=1.0">
-    <title>Kain Co.</title>
+    <title>Performance Labs.</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+
 
 
 
@@ -18,12 +20,13 @@
 <img src="img/logo.png" class="logo">
 <div>
 <a href="#Home">Home</a>
+<button class="btn" onclick="ResetAll()">Reset</button>
 </div>
     </nav>
 
 
     <div class="stopwatch">
-        <h1>Start Your Workout!</h1>
+        <h1>Rest Time!</h1>
        <h2 id="displayTime">00:00:00</h2>
        <div class="button">
         <img src="img/stop.png" onclick="watchStop()">
@@ -32,41 +35,32 @@
        </div>
      </div>
 
+<div class="bottom-header">
      <div class="rest">
         <div>
         <h1>Round</h1>
         <img src="img/circle.png" alt="">
         <div class="over">
-            <div class="teks"><a id="round">0</a></div>
+            <div class="teks"><a id="roundTime">0</a></div>
         </div>
         
     </div>
      </div>
+     <div class="rest">
+        <div>
+        <h1>Rest</h1>
+        <img src="img/circle.png" alt="">
+        <div class="over">
+            <div class="teks"><a id="restTime">0</a></div>
+        </div>
+        
+    </div>
+     </div>
+</div>
+
     </div>
 
-    <div class="features">
-        <div class="row">
-            <div class="text-col">
-                <h1>LOREM IPSUM</h1>
-            </div>
-            <div class="img-col">
-                <div class="img1">
-                <img src="img/1.webp" alt=""> 
-                <div class="overlay">
-                    <div class="text">TF</div>
-                </div>
-                  </div>
-            </div>
-                <div class="img-col">
-                    <div class="img1">
-                        <img src="img/circle.png" alt=""> 
-                        <div class="overlay">
-                            <div class="text">WHAT</div>
-                        </div>
-                          </div>
-            </div>
-        </div>
-    </div>
+
 
 
 
