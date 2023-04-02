@@ -1,12 +1,17 @@
-function calculatePVFAD() {
-    // get user input for interest rate and number of periods
-    var interestRate = parseFloat(document.getElementById("interestRate").value);
-    var numPeriods = parseFloat(document.getElementById("numPeriods").value);
-  
-    // calculate PVF-AD using the formula
-    var PVFAD = ((1 + interestRate) * ((1 + interestRate) ** numPeriods - 1) / interestRate) / (1 + interestRate) ** numPeriods;
-  
-    // display the result in an alert box
-    alert("PVF-AD: " + PVFAD);
-  }
-  
+// Get input elements
+const interestRateInput = document.getElementById("interest-rate");
+const periodsInput = document.getElementById("periods");
+const calculateBtn = document.getElementById("calculate");
+const resultDiv = document.getElementById("result");
+
+// Calculate PVF-AD when the button is clicked
+calculateBtn.addEventListener("click", function() {
+	// Get input values
+	const interestRate = interestRateInput.value;
+	const periods = periodsInput.value;
+
+	// Calculate PVF-AD
+  const pvfad = ((1 + (interestRate/100)) * ((1 + (interestRate/100)) ** periods - 1) / (interestRate/100)) / (1 + (interestRate/100)) ** periods;
+	// Display result
+	resultDiv.innerText = `PVF-AD for ${periods} periods at ${interestRate}% interest rate: ${pvfad.toFixed(5)}`;
+});
